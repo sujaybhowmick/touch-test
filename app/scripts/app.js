@@ -17,15 +17,7 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
-      })
-      .when('/slider',{
+      .when('/',{
         templateUrl: 'views/photo_slider.html',
         controller: 'SliderCtrl'
       })

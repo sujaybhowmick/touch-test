@@ -7,7 +7,8 @@ var express = require('express');
 var server = express();
 
 server.use('/', express.static('dist'));
-server.use('/images', express.static('app/images'))
+server.use('/images', express.static('app/images'));
+server.use('/assets/img', express.static('app/assets/img'));
 
 var port = 9001;
 
